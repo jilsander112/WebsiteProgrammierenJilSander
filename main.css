@@ -1,0 +1,34 @@
+
+h1 {
+    font-size: 65px;
+    color: ghostwhite;
+    font-family: "Bradley Hand ITC";
+}
+
+h2 {
+    font-size: larger;
+    color: black;
+    font-family: Bahnschrift;
+}
+
+h3 {
+    color: white;
+    font-size: larger;
+}
+
+p {
+    color: black;
+    font-family: Bahnschrift;
+}
+
+button {
+    font-size: medium;
+    font-family: Bahnschrift;
+}
+
+a:visited {
+    color: white;
+    font-family: Bahnschrift;
+}
+
+

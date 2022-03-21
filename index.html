@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Speise Spezialitäten Vielfalt</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+<body bgcolor="#ffdab9">
+<center>
+<h1> Mein Lieblingsrestaurant </h1>
+<h2> Deine Lieblingsspeisen von Herzen für Klein und Groß! </h2>
+<p> Als neues Angebot bieten wir unseren Kunden eine kostenlose Berechnung der Kalorien von einem individuell zusammengestellten Menü an!</p>
+<br>
+<br>
+<img alt="Spezialitäten des Hauses." src="https://ddr-rezepte.net/wp-content/uploads/2019/01/1-61.jpg" height="250">
+<br>
+<p> Nimm dir nun unsere Speisekarte genauer unter die Lupe: (P.S. Beilagen gelten als 11-15)  </p>
+<a href="https://www.yumpu.com/de/document/read/5202507/speisekarte-als-pdf-downloaden">Klick!</a>
+<br>
+<br>
+<h3> Berechne hier kostenfrei deine Kalorien! </h3>
+<p> Dein Menü hat folgende Kalorienanzahl: </p> <p id="ausgabe"> </p>
+<p> (Trage in die Eingabefelder die Nummern deiner Speisen an) </p>
+<br>
+
+<p> "Suppe als Vorspeise" 1-4: </p>
+
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfAuswah1">
+        <label class="mdl-textfield__label" for="tfAuswah1"></label>
+        <span class="mdl-textfield__error"></span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<p> "Hauptgerichte" 5-10: </p>
+
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfAuswahl2">
+        <label class="mdl-textfield__label" for="tfAuswahl2"></label>
+        <span class="mdl-textfield__error"></span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<p> "Dazugehörige Beilage" 11-15: </p>
+
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfAuswahl3">
+        <label class="mdl-textfield__label" for="tfAuswahl3"></label>
+        <span class="mdl-textfield__error"></span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<br>
+<!-- Flat button -->
+<button class="mdl-button mdl-js-button"onclick="tfAuslesen()">
+    Button
+</button>
+<br>
+<br>
+<br>
+<img src="https://www.gutekueche.at/storage/media/article/2735/conv/gaeste-im-gasthaus-default.jpg" height="250">
+</center>
+</body>
+</html>
+<br>
+<br>
