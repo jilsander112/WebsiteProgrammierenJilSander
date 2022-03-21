@@ -3,7 +3,7 @@ let eingabefeld2 =["tfAuswahl2"]
 let eingabefeld3 =["tfAuswahl3"]
 let ergebnis;
 let 1 = 50
-let 8= 400  // Beispielzuordnungswerte, funktioniert jedoch nicht
+let 8= 400  // Beispielzuordnungswerte, funktioniert nicht, wie sonst ?
 let 11 = 56
 
 function tfAuslesen () {
