@@ -7,7 +7,7 @@ let ergebnisgesamt
 function tfAuslesen () {
 
     /*
-  function "tfAuslesen" ließt Textfelder aus und berechnet danach die Summe der Kalorien nachdem die Eingaben nach Glültigket geprüft wurden
+  function "tfAuslesen" ließt Textfelder aus und berechnet danach die Summe der Kalorien nachdem die Eingaben nach Glültigket geprüft wurden.
    */
 
     eingabefeld1 = parseInt(document.getElementById("tfAuswah1").value);
@@ -93,7 +93,6 @@ function eingabeUeberpruefen(auswahl) {
 
     // prüft ob die Auswahlmöglichkeiten gültig sind
 
-
     if (eingabefeld1 > 4) {
         console.log("Eine ungültige Zahl eingetippt.")
     } else {
@@ -108,5 +107,4 @@ function eingabeUeberpruefen(auswahl) {
         }
     }
 }
-
-    // prüft ob in jedem Eingabefeld eine Zahl steht die für dieses Feld gültig ist
+    // prüft ob in jedem Eingabefeld eine Zahl steht die für dieses Feld gültig ist.
